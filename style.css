@@ -8,7 +8,7 @@
 /* Utilities */
 
 .container{
-    width: 1200px;
+    width: 1400px;
     margin: 20px auto 0 auto;
 }
 
@@ -55,7 +55,7 @@
 /* Top Header */
 
 .top-header{
-    width: 100%;
+    width: 1400px;
     height: 100px;
 }
 
@@ -81,12 +81,55 @@ li {
 
 /* Bottom Header */
 
-.bottom-header{
-    border-radius: 15px;
+/* .bottom-header{
+    height: ;
+} */
+
+.banner-container{
+    width: 1400px;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
 }
 
-#banner{
-    width: 100%;
+.banner{
+    background-image: url(img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 1400px;
+    height: 1000px;
+    position: relative;
+}
+
+.background-gray{
+    border-radius: 15px;
+    background-color: rgba(59, 46, 46, 0.3);
+    width: 1400px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#banner-title{
+    font-weight: 100;
+    color: white;
+    font-family: sans-serif;
+    font-size: 32px;
+    position: absolute;
+    bottom: 150px;
+    left: 80px;
+}
+
+#banner-text{
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    bottom: 85px;
+    left: 80px;
 }
 
 /* Main */
