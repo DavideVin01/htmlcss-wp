@@ -18,6 +18,10 @@
     content: '';
 }
 
+.margin-50-y{
+    margin-bottom: 50px;
+}
+
 .margin-30-y{
     margin-bottom: 30px;
 }
@@ -32,9 +36,9 @@
 
 /* Colors */
 
-.box-pink{
+/* .box-pink{
     background-color: #E579E6;
-}
+} */
 
 .box-yellow{
     background-color: #E1D67A;
@@ -58,7 +62,26 @@
 
 .top-header{
     width: 100%;
-    height: 120px;
+    height: 100px;
+}
+
+#logo{
+    width: 160px;
+    height: 70px;
+}
+
+/* Nav */
+
+ul li a{
+    font-family: sans-serif;
+    color: #999999;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+li {
+    list-style-type: none;
 }
 
 .bottom-header{
